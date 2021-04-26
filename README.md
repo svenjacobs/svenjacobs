@@ -6,6 +6,6 @@ I started to write software when I still went to school. I learned and used vari
 
 I'm always eager to learn new technologies, programming languages, frameworks, architecture patterns etc. which make the life of a software engineer more pleasant 🙂
 
-I either work from home which is located in the beautiful [Westerwald](https://en.wikipedia.org/wiki/Westerwald) or in [Cologne](https://en.wikipedia.org/wiki/Cologne). <sup>1</sup>
+I either work from home which is located in the beautiful [Westerwald](https://en.wikipedia.org/wiki/Westerwald) or in [Cologne](https://en.wikipedia.org/wiki/Cologne). <sup>[1](#footnote1)</sup>
 
 <sub><a name="#footnote1">1:</a> Almost entirely from home during the COVID-19 pandemic</sub>
