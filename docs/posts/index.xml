@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Sven Jacobs&#39; Blog</title>
+    <link>https://blog.svenjacobs.com/posts/</link>
+    <description>Recent content in Posts on Sven Jacobs&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Oct 2021 21:50:00 +0200</lastBuildDate><atom:link href="https://blog.svenjacobs.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Injecting singleton dependencies into composables</title>
+      <link>https://blog.svenjacobs.com/posts/injecting-singleton-dependencies-into-composables/</link>
+      <pubDate>Tue, 05 Oct 2021 21:50:00 +0200</pubDate>
+      
+      <guid>https://blog.svenjacobs.com/posts/injecting-singleton-dependencies-into-composables/</guid>
+      <description>In this short blog post I want to showcase a pattern for &amp;ldquo;injecting&amp;rdquo; global, singleton dependencies into composable functions via Hilt. You should be familiar with Compose and Hilt. An understanding of ViewModel and Coil is helpful, but not required.
+In Compose, a composable function should only receive the data via function arguments that is required for rendering the UI. This design pattern decouples composables and improves reusability. It is true for plain data, but it might not be that helpful for dependencies.</description>
+    </item>
+    
+  </channel>
+</rss>

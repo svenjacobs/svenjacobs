@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Sven Jacobs&#39; Blog</title>
+    <link>https://blog.svenjacobs.com/tags/</link>
+    <description>Recent content in Tags on Sven Jacobs&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Oct 2021 21:50:00 +0200</lastBuildDate><atom:link href="https://blog.svenjacobs.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>android</title>
+      <link>https://blog.svenjacobs.com/tags/android/</link>
+      <pubDate>Tue, 05 Oct 2021 21:50:00 +0200</pubDate>
+      
+      <guid>https://blog.svenjacobs.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>compose</title>
+      <link>https://blog.svenjacobs.com/tags/compose/</link>
+      <pubDate>Tue, 05 Oct 2021 21:50:00 +0200</pubDate>
+      
+      <guid>https://blog.svenjacobs.com/tags/compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hilt</title>
+      <link>https://blog.svenjacobs.com/tags/hilt/</link>
+      <pubDate>Tue, 05 Oct 2021 21:50:00 +0200</pubDate>
+      
+      <guid>https://blog.svenjacobs.com/tags/hilt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jetpack</title>
+      <link>https://blog.svenjacobs.com/tags/jetpack/</link>
+      <pubDate>Tue, 05 Oct 2021 21:50:00 +0200</pubDate>
+      
+      <guid>https://blog.svenjacobs.com/tags/jetpack/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

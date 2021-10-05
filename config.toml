@@ -1,0 +1,12 @@
+baseURL = 'https://blog.svenjacobs.com/'
+languageCode = 'en-us'
+title = "Sven Jacobs' Blog"
+theme = 'papermod'
+publishDir = 'docs'
+
+[markup.highlight]
+lineNos = true
+style = 'monokai'
+
+[params.assets]
+disableHLJS = true
