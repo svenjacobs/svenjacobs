@@ -1,12 +1,43 @@
-baseURL = 'https://blog.svenjacobs.com/'
-languageCode = 'en-us'
+baseURL = "https://blog.svenjacobs.com/"
+languageCode = "en-us"
 title = "Sven Jacobs' Blog"
-theme = 'papermod'
-publishDir = 'docs'
+theme = "papermod"
+publishDir = "docs"
 
 [markup.highlight]
 lineNos = true
-style = 'monokai'
+style = "monokai"
+
+[params]
+showShareButtons = true
 
 [params.assets]
 disableHLJS = true
+
+[params.homeInfoParams]
+title = "Welcome to my blog"
+content = """\
+  I will mostly write about technology, software development and Android here. \
+  If you want to know more about me, please have a look at my social profiles linked below. \
+  """
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/svenjacobs"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/plckhsn"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/svenjacobs81/"
+
+[[params.socialIcons]]
+name = "rss"
+url = "index.xml"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:blog@svenjacobs.com"
+
