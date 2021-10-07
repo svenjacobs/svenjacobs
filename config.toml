@@ -10,6 +10,7 @@ style = "monokai"
 
 [params]
 showShareButtons = true
+showReadingTime = true
 
 [params.assets]
 disableHLJS = true
