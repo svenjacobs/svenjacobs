@@ -18,7 +18,7 @@ disableHLJS = true
 [params.homeInfoParams]
 title = "Welcome to my blog"
 content = """\
-  I will mostly write about technology, software development and Android here. \
+  I write mostly about technology, software development and Android. \
   If you want to know more about me, please have a look at my social profiles linked below. \
   """
 
