@@ -1,6 +1,6 @@
 ### Hi there 👋🏼
 
-My name is Sven (_he/him_). I'm an [Android](https://android.com) and mobile backend developer from Germany. I also like to dive into Web frontend development like [Vue.js](https://vuejs.org/) from time to time.
+My name is Sven (_he/him_). I'm an [Android](https://android.com) and mobile backend developer from Germany. I also like to dive into Web frontend development with for example [Vue.js](https://vuejs.org/) or [Svelte](https://svelte.dev/) from time to time.
 
 I started to write software when I still went to school. I learned and used various programming languages and environments since then. My first computer was an [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500) but I also got in touch with the [C64](https://en.wikipedia.org/wiki/Commodore_64) at friends.
 
