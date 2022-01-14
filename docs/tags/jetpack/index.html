@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="https://blog.svenjacobs.com/tags/jetpack/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.83c4eb6d61e6a4176992e4a4ce8786fc30bd40032ba8663ec5d11e285a965766.css" integrity="sha256-g8TrbWHmpBdpkuSkzoeG/DC9QAMrqGY&#43;xdEeKFqWV2Y=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.1e44d58192cbf6d7a4eb649bc43dbc3d4cc432677e5d8adc69b08c34cbe461ac.css" integrity="sha256-HkTVgZLL9tek62SbxD28PUzEMmd&#43;XYrcabCMNMvkYaw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://blog.svenjacobs.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://blog.svenjacobs.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://blog.svenjacobs.com/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://blog.svenjacobs.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.88.1" />
+<meta name="generator" content="Hugo 0.92.0" />
 <link rel="alternate" type="application/rss+xml" href="https://blog.svenjacobs.com/tags/jetpack/index.xml">
 <noscript>
     <style>
@@ -124,13 +124,13 @@
     <p>In this short blog post I want to showcase a pattern for “injecting” global, singleton dependencies into composable functions via Hilt. You should be familiar with Compose and Hilt. An understanding of ViewModel and Coil is helpful, but not required.
 In Compose, a composable function should only receive the data via function arguments that is required for rendering the UI. This design pattern decouples composables and improves reusability. It is true for plain data, but it might not be that helpful for dependencies....</p>
   </section>
-  <footer class="entry-footer">October 5, 2021&nbsp;·&nbsp;4 min</footer>
+  <footer class="entry-footer"><span title='2021-10-05 21:50:00 +0200 CEST'>October 5, 2021</span>&nbsp;·&nbsp;4 min</footer>
   <a class="entry-link" aria-label="post link to Injecting singleton dependencies into composables" href="https://blog.svenjacobs.com/posts/injecting-singleton-dependencies-into-composables/"></a>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2021 <a href="https://blog.svenjacobs.com/">Sven Jacobs&#39; Blog</a></span>
+    <span>&copy; 2022 <a href="https://blog.svenjacobs.com/">Sven Jacobs&#39; Blog</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -145,9 +145,11 @@ In Compose, a composable function should only receive the data via function argu
 
 <script>
     let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
