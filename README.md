@@ -10,7 +10,7 @@ I believe that crafting code which is elegant, beautiful, effective, robust, tes
 
 <hr/>
 
-I'm always eager to learn new technologies, programming languages, frameworks, architectural patterns etc. which make the life of a software engineer more pleasant.
+I'm always eager to learn new technologies, programming languages, frameworks, architectural patterns etc. which make the life of a software engineer more pleasant and help in writing better code.
 
 I either work from home which is located in the beautiful [Westerwald](https://en.wikipedia.org/wiki/Westerwald) or in [Cologne](https://en.wikipedia.org/wiki/Cologne). <sup>[1](#footnote1)</sup>
 
