@@ -13,14 +13,21 @@
         <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/brands.min.css">
         <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/solid.min.css">
         <style>
-            @import url(https://fonts.bunny.net/css?family=roboto:500);
-
             :root {
                 --color-background-light: rgb(239, 239, 239);
                 --color-background-dark: rgb(44, 48, 58);
                 --color-text-light: rgb(44, 48, 58);
                 --color-text-dark: rgb(223, 224, 226);
                 --color-link: rgb(238, 88, 88);
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                src: url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff) format('woff');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                font-display: swap;
             }
 
             body {
@@ -106,7 +113,7 @@
     </head>
     <body>
         <header>
-            <img id="me" src="assets/images/me.png" alt="Picture of myself, Sven Jacobs">
+            <img id="me" src="assets/images/me.webp" alt="Picture of myself, Sven Jacobs">
             <div>
                 <h1 id="greeting">Hello 👋🏻</h1>
                 <h2>My name is <span title="he/him">Sven</span>.</h2>
@@ -125,13 +132,27 @@
 
             <nav>
                 <ul id="social">
-                    <li title="E-Mail"><a href="mailto:mail@svenjacobs.com" target="_blank"><i class="fa-solid fa-square-envelope fa-2xl"></i></a></li>
-                    <li title="GitHub"><a href="https://github.com/svenjacobs" target="_blank"><i class="fa-brands fa-github-square fa-2xl"></i></a></li>
-                    <li title="LinkedIn"><a href="https://www.linkedin.com/in/svenjacobs81/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
-                    <li title="Xing"><a href="https://www.xing.com/profile/Sven_Jacobs4/" target="_blank"><i class="fa-brands fa-xing-square fa-2xl"></i></a></li>
-                    <li title="Twitter"><a href="https://twitter.com/plckhsn" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl"></i></a></li>
-                    <li title="StackOverflow"><a href="https://stackoverflow.com/users/416029/sven-jacobs" target="_blank"><i class="fa-brands fa-stack-overflow fa-2xl"></i></a></li>
-                    <li title="Mastodon"><a href="https://mastodon.social/@caffeine81" target="_blank"><i class="fa-brands fa-mastodon fa-2xl"></i></a></li>
+                    <li title="E-Mail">
+                        <a href="mailto:mail@svenjacobs.com" aria-label="E-Mail" target="_blank"><i class="fa-solid fa-square-envelope fa-2xl"></i></a>
+                    </li>
+                    <li title="GitHub">
+                        <a href="https://github.com/svenjacobs" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github-square fa-2xl"></i></a>
+                    </li>
+                    <li title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/svenjacobs81/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    </li>
+                    <li title="Xing">
+                        <a href="https://www.xing.com/profile/Sven_Jacobs4/" aria-label="Xing" target="_blank"><i class="fa-brands fa-xing-square fa-2xl"></i></a>
+                    </li>
+                    <li title="Twitter">
+                        <a href="https://twitter.com/plckhsn" aria-label="Twitter" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+                    </li>
+                    <li title="StackOverflow">
+                        <a href="https://stackoverflow.com/users/416029/sven-jacobs" aria-label="StackOverflow" target="_blank"><i class="fa-brands fa-stack-overflow fa-2xl"></i></a>
+                    </li>
+                    <li title="Mastodon">
+                        <a href="https://mastodon.social/@caffeine81" aria-label="Mastodon" target="_blank"><i class="fa-brands fa-mastodon fa-2xl"></i></a>
+                    </li>
                 </ul>
             </nav>
         </main>
