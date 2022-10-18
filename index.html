@@ -30,6 +30,16 @@
                 font-display: swap;
             }
 
+            @font-face {
+                font-family: 'Roboto Mono';
+                font-style: normal;
+                font-weight: 500;
+                font-stretch: 100%;
+                src: url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff) format('woff');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                font-display: swap;
+            }
+
             body {
                 font-family: 'Roboto', sans-serif;
                 padding: 5vh 10vw;
@@ -37,9 +47,6 @@
                 color: var(--color-text-light);
                 font-size: x-large;
                 line-height: 1.5em;
-            }
-
-            p {
                 max-width: 25em;
             }
 
@@ -47,9 +54,19 @@
                 color: var(--color-text-light);
             }
 
+            a:focus {
+                color: var(--color-link);
+            }
+
             header {
                 display: block;
                 align-items: center;
+            }
+
+            footer {
+                font-family: 'Roboto Mono', monospace;
+                font-size: small;
+                line-height: 1.3em;
             }
 
             #me {
@@ -71,6 +88,12 @@
                 margin-right: 0.2em;
                 margin-top: 0.2em;
                 height: 2em;
+                filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.6));
+            }
+
+            #social li:hover {
+                filter: none;
+                transform: translate(2px, 2px);
             }
 
             .fadeOut {
@@ -150,8 +173,17 @@
                     <li title="Mastodon">
                         <a href="https://mastodon.social/@svenjacobs" aria-label="Mastodon" target="_blank"><i class="fa-brands fa-mastodon fa-2xl"></i></a>
                     </li>
+                    <li title="Keybase">
+                        <a href="https://keybase.io/caffeine" aria-label="Keybase" target="_blank"><i class="fa-brands fa-keybase fa-2xl"></i></a>
+                    </li>
                 </ul>
             </nav>
+
+            <footer>
+                <div>
+                    Created by hand with plain HTML, CSS and some JavaScript | Works on all modern browsers | <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C" aria-label="PGP key">PGP key</a>
+                </div>
+            </footer>
         </main>
 
         <script>
