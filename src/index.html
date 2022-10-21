@@ -1,259 +1,259 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Personal website of Sven Jacobs. Mobile full-stack software engineer.">
-        <meta name="author" content="Sven Jacobs">
-        <title>Sven Jacobs</title>
-        <link rel="icon" type="image/png" href="assets/images/favicon.png">
-        <link rel="apple-touch-icon" href="assets/images/favicon.png">
-        <link rel="stylesheet" type="text/css" href="assets/normalize/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/fontawesome.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/brands.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/solid.min.css">
-        <style>
-            :root {
-                --color-background-light: rgb(239, 239, 239);
-                --color-background-dark: rgb(44, 48, 58);
-                --color-text-light: rgb(44, 48, 58);
-                --color-text-dark: rgb(223, 224, 226);
-                --color-link: rgb(238, 88, 88);
-            }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Sven Jacobs. Mobile full-stack software engineer.">
+    <meta name="author" content="Sven Jacobs">
+    <title>Sven Jacobs</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="assets/normalize/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/solid.min.css">
+    <style>
+      :root {
+        --color-background-light: rgb(239, 239, 239);
+        --color-background-dark: rgb(44, 48, 58);
+        --color-text-light: rgb(44, 48, 58);
+        --color-text-dark: rgb(223, 224, 226);
+        --color-link: rgb(238, 88, 88);
+      }
 
-            @font-face {
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                src: url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff) format('woff');
-                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-                font-display: swap;
-            }
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff) format('woff');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        font-display: swap;
+      }
 
-            @font-face {
-                font-family: 'Roboto Mono';
-                font-style: normal;
-                font-weight: 500;
-                font-stretch: 100%;
-                src: url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff) format('woff');
-                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-                font-display: swap;
-            }
+      @font-face {
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 500;
+        font-stretch: 100%;
+        src: url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff) format('woff');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        font-display: swap;
+      }
 
-            body {
-                font-family: 'Roboto', sans-serif;
-                padding: 5vh 10vw;
-                background-color: var(--color-background-light);
-                color: var(--color-text-light);
-                font-size: x-large;
-                line-height: 1.5em;
-                max-width: 25em;
-            }
+      body {
+        font-family: 'Roboto', sans-serif;
+        padding: 5vh 10vw;
+        background-color: var(--color-background-light);
+        color: var(--color-text-light);
+        font-size: x-large;
+        line-height: 1.5em;
+        max-width: 25em;
+      }
 
-            a {
-                color: var(--color-text-light);
-            }
+      a {
+        color: var(--color-text-light);
+      }
 
-            a:focus {
-                color: var(--color-link);
-            }
+      a:focus {
+        color: var(--color-link);
+      }
 
-            header {
-                display: block;
-                align-items: center;
-            }
+      header {
+        display: block;
+        align-items: center;
+      }
 
-            footer {
-                font-family: 'Roboto Mono', monospace;
-                font-size: small;
-                line-height: 1.3em;
-            }
+      footer {
+        font-family: 'Roboto Mono', monospace;
+        font-size: small;
+        line-height: 1.3em;
+      }
 
-            #me_container {
-                display: none;
-                width: 150px;
-                height: 150px;
-                margin-right: 0.8em;
-                filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.6));
-            }
+      #me_container {
+        display: none;
+        width: 150px;
+        height: 150px;
+        margin-right: 0.8em;
+        filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.6));
+      }
 
-            #me {
-                width: 100%;
-                height: 100%;
-                background-image: url("./assets/images/me.webp");
-                background-size: cover;
-                clip-path: inset(0% 0% 0% 0% round 5px);
-            }
+      #me {
+        width: 100%;
+        height: 100%;
+        background-image: url("./assets/images/me.webp");
+        background-size: cover;
+        clip-path: inset(0% 0% 0% 0% round 5px);
+      }
 
-            @keyframes glance {
-                to {
-                    top: -200%;
-                    left: 100%;
-                    transition-property: top, left;
-                }
-            }
+      @keyframes glance {
+        to {
+          top: -200%;
+          left: 100%;
+          transition-property: top, left;
+        }
+      }
 
-            #me::after {
-                animation-name: glance;
-                animation-duration: 1.5s;
-                animation-delay: 2s;
-                position: absolute;
-                width: 200%;
-                height: 200%;
-                top: 100%;
-                left: -200%;
-                content: "";
-                background: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 70%);
-            }
+      #me::after {
+        animation-name: glance;
+        animation-duration: 1.5s;
+        animation-delay: 2s;
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        top: 100%;
+        left: -200%;
+        content: "";
+        background: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 70%);
+      }
 
-            #social {
-                display: flex;
-                flex-wrap: wrap;
-                margin-top: 1.3em;
-                padding-left: 0;
-            }
+      #social {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.3em;
+        padding-left: 0;
+      }
 
-            #social li {
-                display: inline-block;
-                margin-right: 0.4em;
-                margin-top: 0.2em;
-                height: 2em;
-                filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
-            }
+      #social li {
+        display: inline-block;
+        margin-right: 0.4em;
+        margin-top: 0.2em;
+        height: 2em;
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
+      }
 
-            #social li:hover {
-                filter: none;
-                transform: translate(2px, 2px);
-            }
+      #social li:hover {
+        filter: none;
+        transform: translate(2px, 2px);
+      }
 
-            .fadeOut {
-                opacity: 0;
-                transition: opacity 1s;
-            }
+      .fadeOut {
+        opacity: 0;
+        transition: opacity 1s;
+      }
 
-            .fadeIn {
-                opacity: 1;
-                transition: opacity 1s;
-            }
+      .fadeIn {
+        opacity: 1;
+        transition: opacity 1s;
+      }
 
-            @media (prefers-color-scheme: dark) {
-                body {
-                    background-color: var(--color-background-dark);
-                    color: var(--color-text-dark);
-                }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: var(--color-background-dark);
+          color: var(--color-text-dark);
+        }
 
-                a {
-                    color: var(--color-text-dark);
-                }
-            }
+        a {
+          color: var(--color-text-dark);
+        }
+      }
 
-            @media only screen and (min-width: 600px) {
-                header {
-                    display: flex;
-                }
+      @media only screen and (min-width: 600px) {
+        header {
+          display: flex;
+        }
 
-                #me_container {
-                    display: block;
-                }
-            }
+        #me_container {
+          display: block;
+        }
+      }
 
-            @media (hover:hover) {
-                a:hover {
-                    color: var(--color-link);
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <div id="me_container">
-                <div id="me"></div>
-            </div>
-            <div>
-                <h1 id="greeting">Hello 👋🏻</h1>
-                <h2>My name is <span title="he/him">Sven</span>.</h2>
-            </div>
-        </header>
-        <main>
-            <p>
-                I'm a mobile full-stack software engineer developing <a href="https://android.com" target="_blank">Android</a>
-                applications professionally since 2011. I write software since the early 2000s. I live in Germany and work at
-                <a href="https://rewe-digital.com/">REWE digital</a>.
-            </p>
-            <p>
-                I also create and contribute to open source software.
-                Find out more about me and ways to contact me below.
-            </p>
+      @media (hover:hover) {
+        a:hover {
+          color: var(--color-link);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="me_container">
+        <div id="me"></div>
+      </div>
+      <div>
+        <h1 id="greeting">Hello 👋🏻</h1>
+        <h2>My name is <span title="he/him">Sven</span>.</h2>
+      </div>
+    </header>
+    <main>
+      <p>
+        I'm a mobile full-stack software engineer developing <a href="https://android.com" target="_blank">Android</a>
+        applications professionally since 2011. I write software since the early 2000s. I live in Germany and work at
+        <a href="https://rewe-digital.com/">REWE digital</a>.
+      </p>
+      <p>
+        I also create and contribute to open source software.
+        Find out more about me and ways to contact me below.
+      </p>
 
-            <nav>
-                <ul id="social">
-                    <li title="E-Mail">
-                        <a href="mailto:mail@svenjacobs.com" aria-label="E-Mail" target="_blank"><i class="fa-solid fa-square-envelope fa-2xl"></i></a>
-                    </li>
-                    <li title="GitHub">
-                        <a href="https://github.com/svenjacobs" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github-square fa-2xl"></i></a>
-                    </li>
-                    <li title="LinkedIn">
-                        <a href="https://www.linkedin.com/in/svenjacobs81/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-                    </li>
-                    <li title="Xing">
-                        <a href="https://www.xing.com/profile/Sven_Jacobs4/" aria-label="Xing" target="_blank"><i class="fa-brands fa-xing-square fa-2xl"></i></a>
-                    </li>
-                    <li title="StackOverflow">
-                        <a href="https://stackoverflow.com/users/416029/sven-jacobs" aria-label="StackOverflow" target="_blank"><i class="fa-brands fa-stack-overflow fa-2xl"></i></a>
-                    </li>
-                    <li title="Mastodon">
-                        <a href="https://mastodon.social/@svenjacobs" aria-label="Mastodon" target="_blank"><i class="fa-brands fa-mastodon fa-2xl"></i></a>
-                    </li>
-                    <li title="Keybase">
-                        <a href="https://keybase.io/caffeine" aria-label="Keybase" target="_blank"><i class="fa-brands fa-keybase fa-2xl"></i></a>
-                    </li>
-                </ul>
-            </nav>
+      <nav>
+        <ul id="social">
+          <li title="E-Mail">
+            <a href="mailto:mail@svenjacobs.com" aria-label="E-Mail" target="_blank"><i class="fa-solid fa-square-envelope fa-2xl"></i></a>
+          </li>
+          <li title="GitHub">
+            <a href="https://github.com/svenjacobs" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github-square fa-2xl"></i></a>
+          </li>
+          <li title="LinkedIn">
+            <a href="https://www.linkedin.com/in/svenjacobs81/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+          </li>
+          <li title="Xing">
+            <a href="https://www.xing.com/profile/Sven_Jacobs4/" aria-label="Xing" target="_blank"><i class="fa-brands fa-xing-square fa-2xl"></i></a>
+          </li>
+          <li title="StackOverflow">
+            <a href="https://stackoverflow.com/users/416029/sven-jacobs" aria-label="StackOverflow" target="_blank"><i class="fa-brands fa-stack-overflow fa-2xl"></i></a>
+          </li>
+          <li title="Mastodon">
+            <a href="https://mastodon.social/@svenjacobs" aria-label="Mastodon" target="_blank"><i class="fa-brands fa-mastodon fa-2xl"></i></a>
+          </li>
+          <li title="Keybase">
+            <a href="https://keybase.io/caffeine" aria-label="Keybase" target="_blank"><i class="fa-brands fa-keybase fa-2xl"></i></a>
+          </li>
+        </ul>
+      </nav>
 
-            <footer>
-                <div>
-                    Created by hand with plain HTML, CSS and some JavaScript
-                    | Works on all modern browsers
-                    | <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C" aria-label="PGP key" target="_blank">PGP key</a>
-                    | <a href="https://threema.id/DNBBMHMN" aria-label="Threema" target="_blank">Threema</a>
-                </div>
-            </footer>
-        </main>
+      <footer>
+        <div>
+          Created by hand with plain HTML, CSS and some JavaScript
+          | Works on all modern browsers
+          | <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C" aria-label="PGP key" target="_blank">PGP key</a>
+          | <a href="https://threema.id/DNBBMHMN" aria-label="Threema" target="_blank">Threema</a>
+        </div>
+      </footer>
+    </main>
 
-        <script>
-            function sleep(milliseconds) {
-                return new Promise(resolve => setTimeout(resolve, milliseconds));
-            }
+    <script>
+      function sleep(milliseconds) {
+        return new Promise(resolve => setTimeout(resolve, milliseconds));
+      }
 
-            (async function() {
-                const greetings = [
-                    "Hello 👋🏻",
-                    "Hallo 👋🏼",
-                    "Hola 👋🏽",
-                    "Ciao 👋🏾",
-                    "Bonjour 👋🏿",
-                ];
+      (async function() {
+        const greetings = [
+          "Hello 👋🏻",
+          "Hallo 👋🏼",
+          "Hola 👋🏽",
+          "Ciao 👋🏾",
+          "Bonjour 👋🏿",
+        ];
 
-                let index = 1;
-                const greeting = document.getElementById("greeting");
+        let index = 1;
+        const greeting = document.getElementById("greeting");
 
-                while (true) {
-                    await sleep(3000);
+        while (true) {
+          await sleep(3000);
 
-                    greeting.classList.add("fadeOut");
-                    await sleep(1000);
+          greeting.classList.add("fadeOut");
+          await sleep(1000);
 
-                    greeting.textContent = greetings[index];
-                    greeting.classList.replace("fadeOut", "fadeIn");
-                    await sleep(1000);
+          greeting.textContent = greetings[index];
+          greeting.classList.replace("fadeOut", "fadeIn");
+          await sleep(1000);
 
-                    greeting.classList.remove("fadeIn");
+          greeting.classList.remove("fadeIn");
 
-                    index++;
-                    if (index === greetings.length) index = 0;
-                }
-            }());
-        </script>
-    </body>
+          index++;
+          if (index === greetings.length) index = 0;
+        }
+      }());
+    </script>
+  </body>
 </html>
