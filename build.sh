@@ -9,4 +9,5 @@ html-minifier \
     -o build/index.html \
     src/index.html
 cp -r src/assets build/assets
+cp src/robots.txt build
 
