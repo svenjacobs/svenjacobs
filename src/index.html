@@ -102,8 +102,35 @@
         height: 200%;
         top: 100%;
         left: -200%;
-        content: "";
+        content: '';
         background: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 70%);
+      }
+
+      #greeting:before {
+        content: 'Hello 👋🏻';
+        animation-name: greeting;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+      }
+
+      @keyframes greeting {
+        0% { opacity: 1; content:'Hello 👋🏻'; }
+        5% { opacity: 1; }
+        10% { opacity: 0; }
+        20% { opacity: 1; content: 'Hallo 👋🏼'; }
+        25% { opacity: 1; }
+        30% { opacity: 0; }
+        40% { opacity: 1; content: 'Hola 👋🏽'; }
+        45% { opacity: 1; }
+        50% { opacity: 0; }
+        60% { opacity: 1; content: 'Ciao 👋🏾'; }
+        65% { opacity: 1; }
+        70% { opacity: 0; }
+        80% { opacity: 1; content: 'Bonjour 👋🏿'; }
+        85% { opacity: 1; }
+        90% { opacity: 0; }
       }
 
       #social {
@@ -170,7 +197,7 @@
         <div id="me"></div>
       </div>
       <div>
-        <h1 id="greeting">Hello 👋🏻</h1>
+        <h1 id="greeting"></h1>
         <h2>My name is <span title="he/him">Sven</span>.</h2>
       </div>
     </header>
@@ -213,46 +240,11 @@
     </main>
     <footer>
       <div>
-        Created by hand with plain HTML, CSS and some JavaScript
+        Created by hand with plain HTML and CSS
         | Works on all modern browsers
         | <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C" aria-label="PGP key" target="_blank">PGP key</a>
         | <a href="https://threema.id/DNBBMHMN" aria-label="Threema" target="_blank" rel="me">Threema</a>
       </div>
     </footer>
-
-    <script>
-      function sleep(milliseconds) {
-        return new Promise(resolve => setTimeout(resolve, milliseconds));
-      }
-
-      (async function() {
-        const greetings = [
-          "Hello 👋🏻",
-          "Hallo 👋🏼",
-          "Hola 👋🏽",
-          "Ciao 👋🏾",
-          "Bonjour 👋🏿",
-        ];
-
-        let index = 1;
-        const greeting = document.getElementById("greeting");
-
-        while (true) {
-          await sleep(3000);
-
-          greeting.classList.add("fadeOut");
-          await sleep(1000);
-
-          greeting.textContent = greetings[index];
-          greeting.classList.replace("fadeOut", "fadeIn");
-          await sleep(1000);
-
-          greeting.classList.remove("fadeIn");
-
-          index++;
-          if (index === greetings.length) index = 0;
-        }
-      }());
-    </script>
   </body>
 </html>
