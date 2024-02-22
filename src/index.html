@@ -106,33 +106,6 @@
         background: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 70%);
       }
 
-      #greeting:before {
-        content: 'Hello 👋🏻';
-        animation-name: greeting;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        animation-delay: 1s;
-      }
-
-      @keyframes greeting {
-        0% { opacity: 1; content:'Hello 👋🏻'; }
-        5% { opacity: 1; }
-        10% { opacity: 0; }
-        20% { opacity: 1; content: 'Hallo 👋🏼'; }
-        25% { opacity: 1; }
-        30% { opacity: 0; }
-        40% { opacity: 1; content: 'Hola 👋🏽'; }
-        45% { opacity: 1; }
-        50% { opacity: 0; }
-        60% { opacity: 1; content: 'Ciao 👋🏾'; }
-        65% { opacity: 1; }
-        70% { opacity: 0; }
-        80% { opacity: 1; content: 'Bonjour 👋🏿'; }
-        85% { opacity: 1; }
-        90% { opacity: 0; }
-      }
-
       #social {
         display: flex;
         flex-wrap: wrap;
@@ -197,7 +170,7 @@
         <div id="me"></div>
       </div>
       <div>
-        <h1 id="greeting"></h1>
+        <h1>Hello 👋🏻</h1>
         <h2>My name is <span title="he/him">Sven</span>.</h2>
       </div>
     </header>
