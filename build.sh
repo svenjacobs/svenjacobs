@@ -8,3 +8,6 @@ pkgx npx --yes html-minifier@4.0.0 \
   --minify-js true \
   -o build/index.html \
   src/index.html
+pkgx npx --yes babel-minify@0.5.2 \
+  src/index.js \
+  --out-file build/index.js

@@ -1,17 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website of Sven Jacobs. Mobile full-stack software engineer.">
-    <meta name="author" content="Sven Jacobs">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal website of Sven Jacobs. Mobile full-stack software engineer."
+    />
+    <meta name="author" content="Sven Jacobs" />
     <title>Sven Jacobs</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="assets/images/favicon.png">
-    <link rel="stylesheet" type="text/css" href="assets/modern-normalize/css/modern-normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/brands.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/solid.min.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/modern-normalize/css/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/fontawesome/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/fontawesome/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/fontawesome/css/solid.min.css"
+    />
     <style>
       :root {
         --color-background-light: rgb(239, 239, 239);
@@ -22,26 +41,36 @@
       }
 
       @font-face {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-style: normal;
         font-weight: 500;
-        src: url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff) format('woff');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        src: url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff2)
+            format("woff2"),
+          url(https://fonts.bunny.net/roboto/files/roboto-latin-500-normal.woff)
+            format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
         font-display: swap;
       }
 
       @font-face {
-        font-family: 'Roboto Mono';
+        font-family: "Roboto Mono";
         font-style: normal;
         font-weight: 500;
         font-stretch: 100%;
-        src: url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff2) format('woff2'), url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff) format('woff');
-        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        src: url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff2)
+            format("woff2"),
+          url(https://fonts.bunny.net/roboto-mono/files/roboto-mono-latin-500-normal.woff)
+            format("woff");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
         font-display: swap;
       }
 
       body {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         padding: 5vh 10vw;
         background-color: var(--color-background-light);
         color: var(--color-text-light);
@@ -64,7 +93,7 @@
       }
 
       footer {
-        font-family: 'Roboto Mono', monospace;
+        font-family: "Roboto Mono", monospace;
         font-size: small;
         line-height: 1.3em;
       }
@@ -102,8 +131,13 @@
         height: 200%;
         top: 100%;
         left: -200%;
-        content: '';
-        background: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 70%);
+        content: "";
+        background: linear-gradient(
+          45deg,
+          rgba(255, 255, 255, 0) 30%,
+          rgba(255, 255, 255, 0.6) 50%,
+          rgba(255, 255, 255, 0) 70%
+        );
       }
 
       #social {
@@ -157,12 +191,30 @@
         }
       }
 
-      @media (hover:hover) {
+      @media (hover: hover) {
         a:hover {
           color: var(--color-link);
         }
       }
+
+      #toots {
+        font-family: "Roboto Mono", monospace;
+        font-size: medium;
+        font-weight: bold;
+        line-height: 1.3em;
+        margin-top: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-left: 0.3em solid;
+        opacity: 0.8;
+        transition: opacity 1s linear;
+      }
+
+      #toots.hide {
+        opacity: 0;
+      }
     </style>
+    <script type="text/javascript" src="./index.js" defer></script>
   </head>
   <body>
     <header>
@@ -176,48 +228,104 @@
     </header>
     <main>
       <p>
-        I'm a mobile full stack software engineer developing <a href="https://android.com" target="_blank">Android</a>
-        applications professionally since 2011. I write software since the early 2000s. I live in Germany and work at
+        I'm a mobile full stack software engineer developing
+        <a href="https://android.com" target="_blank">Android</a>
+        applications professionally since 2011. I write software since the early
+        2000s. I live in Germany and work at
         <a href="https://rewe-digital.com/">REWE digital</a>.
       </p>
       <p>
-        I also create and contribute to open source software.
-        Find out more about me and ways to contact me below.
+        I also create and contribute to open source software. Find out more
+        about me and ways to contact me below.
       </p>
 
       <nav>
         <ul id="social">
           <li title="E-Mail">
-            <a href="mailto:mail@svenjacobs.com" aria-label="E-Mail" target="_blank"><i class="fa-solid fa-square-envelope fa-2xl"></i></a>
+            <a
+              href="mailto:mail@svenjacobs.com"
+              aria-label="E-Mail"
+              target="_blank"
+              ><i class="fa-solid fa-square-envelope fa-2xl"></i
+            ></a>
           </li>
           <li title="GitHub">
-            <a href="https://github.com/svenjacobs" aria-label="GitHub" target="_blank" rel="me"><i class="fa-brands fa-github-square fa-2xl"></i></a>
+            <a
+              href="https://github.com/svenjacobs"
+              aria-label="GitHub"
+              target="_blank"
+              rel="me"
+              ><i class="fa-brands fa-github-square fa-2xl"></i
+            ></a>
           </li>
           <li title="LinkedIn">
-            <a href="https://www.linkedin.com/in/svenjacobs81/" aria-label="LinkedIn" target="_blank" rel="me"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a
+              href="https://www.linkedin.com/in/svenjacobs81/"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="me"
+              ><i class="fa-brands fa-linkedin fa-2xl"></i
+            ></a>
           </li>
           <li title="Xing">
-            <a href="https://www.xing.com/profile/Sven_Jacobs4/" aria-label="Xing" target="_blank" rel="me"><i class="fa-brands fa-xing-square fa-2xl"></i></a>
+            <a
+              href="https://www.xing.com/profile/Sven_Jacobs4/"
+              aria-label="Xing"
+              target="_blank"
+              rel="me"
+              ><i class="fa-brands fa-xing-square fa-2xl"></i
+            ></a>
           </li>
           <li title="StackOverflow">
-            <a href="https://stackoverflow.com/users/416029/sven-jacobs" aria-label="StackOverflow" target="_blank" rel="me"><i class="fa-brands fa-stack-overflow fa-2xl"></i></a>
+            <a
+              href="https://stackoverflow.com/users/416029/sven-jacobs"
+              aria-label="StackOverflow"
+              target="_blank"
+              rel="me"
+              ><i class="fa-brands fa-stack-overflow fa-2xl"></i
+            ></a>
           </li>
           <li title="Mastodon">
-            <a href="https://androiddev.social/@svenjacobs" aria-label="Mastodon" target="_blank" rel="me"><i class="fa-brands fa-mastodon fa-2xl"></i></a>
+            <a
+              href="https://androiddev.social/@svenjacobs"
+              aria-label="Mastodon"
+              target="_blank"
+              rel="me"
+              ><i class="fa-brands fa-mastodon fa-2xl"></i
+            ></a>
           </li>
           <li title="Keybase">
-            <a href="https://keybase.io/caffeine" aria-label="Keybase" target="_blank" rel="me"><i class="fa-brands fa-keybase fa-2xl"></i></a>
+            <a
+              href="https://keybase.io/caffeine"
+              aria-label="Keybase"
+              target="_blank"
+              rel="me"
+              ><i class="fa-brands fa-keybase fa-2xl"></i
+            ></a>
           </li>
         </ul>
       </nav>
     </main>
     <footer>
       <div>
-        Created by hand with plain HTML and CSS
-        | Works on all modern browsers
-        | <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C" aria-label="PGP key" target="_blank">PGP key</a>
-        | <a href="https://threema.id/DNBBMHMN" aria-label="Threema" target="_blank" rel="me">Threema</a>
+        Created by hand with plain HTML, CSS and some optional JavaScript |
+        Works on all modern browsers |
+        <a
+          href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C"
+          aria-label="PGP key"
+          target="_blank"
+          >PGP key</a
+        >
+        |
+        <a
+          href="https://threema.id/DNBBMHMN"
+          aria-label="Threema"
+          target="_blank"
+          rel="me"
+          >Threema</a
+        >
       </div>
+      <div id="toots" class="hide"></div>
     </footer>
   </body>
 </html>
