@@ -14,6 +14,6 @@ I'm always eager to learn new technologies, programming languages, frameworks, a
 
 I either work from home which is located in the beautiful [Westerwald](https://en.wikipedia.org/wiki/Westerwald) or in [Cologne](https://en.wikipedia.org/wiki/Cologne). <sup>[1](#footnote1)</sup>
 
-Contact me on [LinkedIn](https://svenjacobs.com) or via [mail](mailto:github@svenjacobs.com).
+For contact information see my [personal website](https://svenjacobs.com).
 
 <sub><a name="#footnote1">1:</a> Almost entirely from home during the COVID-19 pandemic</sub>
