@@ -16,21 +16,6 @@
       type="text/css"
       href="assets/modern-normalize/css/modern-normalize.min.css"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/fontawesome/css/fontawesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/fontawesome/css/brands.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="assets/fontawesome/css/solid.min.css"
-    />
     <style>
       :root {
         --color-background-light: rgb(239, 239, 239);
@@ -92,6 +77,10 @@
         align-items: center;
       }
 
+      nav {
+        margin: 1em 0 1em 0;
+      }
+
       footer {
         font-family: "Roboto Mono", monospace;
         font-size: small;
@@ -141,23 +130,8 @@
       }
 
       #social {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 1.3em;
-        padding-left: 0;
-      }
-
-      #social li {
-        display: inline-block;
-        margin-right: 0.4em;
-        margin-top: 0.2em;
-        height: 2em;
-        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
-      }
-
-      #social li:hover {
-        filter: none;
-        transform: translate(2px, 2px);
+        font-size: large;
+        line-height: 1.5em;
       }
 
       .fadeOut {
@@ -223,67 +197,63 @@
 
       <nav>
         <ul id="social">
-          <li title="E-Mail">
-            <a
-              href="mailto:mail@svenjacobs.com"
-              aria-label="E-Mail"
-              target="_blank"
-              ><i class="fa-solid fa-square-envelope fa-2xl"></i
-            ></a>
+          <li>
+            <a href="mailto:mail@svenjacobs.com" target="_blank">E-Mail</a>
           </li>
-          <li title="GitHub">
-            <a
-              href="https://github.com/svenjacobs"
-              aria-label="GitHub"
-              target="_blank"
-              rel="me"
-              ><i class="fa-brands fa-github-square fa-2xl"></i
-            ></a>
+          <li>
+            <a href="https://github.com/svenjacobs" target="_blank" rel="me"
+              >GitHub</a
+            >
           </li>
-          <li title="LinkedIn">
-            <a
-              href="https://www.linkedin.com/in/svenjacobs81/"
-              aria-label="LinkedIn"
-              target="_blank"
-              rel="me"
-              ><i class="fa-brands fa-linkedin fa-2xl"></i
-            ></a>
-          </li>
-          <li title="Xing">
-            <a
-              href="https://www.xing.com/profile/Sven_Jacobs4/"
-              aria-label="Xing"
-              target="_blank"
-              rel="me"
-              ><i class="fa-brands fa-xing-square fa-2xl"></i
-            ></a>
-          </li>
-          <li title="StackOverflow">
+          <li>
             <a
               href="https://stackoverflow.com/users/416029/sven-jacobs"
-              aria-label="StackOverflow"
               target="_blank"
               rel="me"
-              ><i class="fa-brands fa-stack-overflow fa-2xl"></i
-            ></a>
+              >StackOverflow</a
+            >
           </li>
-          <li title="Mastodon">
+          <li>
             <a
               href="https://androiddev.social/@svenjacobs"
-              aria-label="Mastodon"
               target="_blank"
               rel="me"
-              ><i class="fa-brands fa-mastodon fa-2xl"></i
-            ></a>
+              >Mastodon</a
+            >
           </li>
-          <li title="Keybase">
+          <li>
             <a
-              href="https://keybase.io/caffeine"
-              aria-label="Keybase"
+              href="https://www.linkedin.com/in/svenjacobs81/"
               target="_blank"
               rel="me"
-              ><i class="fa-brands fa-keybase fa-2xl"></i
-            ></a>
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.xing.com/profile/Sven_Jacobs4/"
+              target="_blank"
+              rel="me"
+              >Xing</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://signal.me/#eu/Yzg1bthOktid8FeNV_6YezHOjHjb6U7SRY6rfj74TB9Ykb7EWdRF3JXYfXHDbZPy"
+              target="_blank"
+              rel="me"
+              >Signal</a
+            >
+          </li>
+          <li>
+            <a href="https://threema.id/DNBBMHMN" target="_blank" rel="me"
+              >Threema</a
+            >
+          </li>
+          <li>
+            <a href="https://keybase.io/caffeine" target="_blank" rel="me"
+              >Keybase</a
+            >
           </li>
         </ul>
       </nav>
@@ -293,25 +263,8 @@
         Created by hand with plain HTML and CSS | Works on all modern browsers |
         <a
           href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C"
-          aria-label="PGP key"
           target="_blank"
           >PGP key</a
-        >
-        |
-        <a
-          href="https://signal.me/#eu/Yzg1bthOktid8FeNV_6YezHOjHjb6U7SRY6rfj74TB9Ykb7EWdRF3JXYfXHDbZPy"
-          aria-label="Signal"
-          target="_blank"
-          rel="me"
-          >Signal</a
-        >
-        |
-        <a
-          href="https://threema.id/DNBBMHMN"
-          aria-label="Threema"
-          target="_blank"
-          rel="me"
-          >Threema</a
         >
       </div>
     </footer>
