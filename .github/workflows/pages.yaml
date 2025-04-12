@@ -24,7 +24,7 @@ jobs:
         with:
           show-progress: false
       - name: Setup pkgx
-        uses: pkgxdev/setup@v3
+        uses: pkgxdev/setup@v4
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
