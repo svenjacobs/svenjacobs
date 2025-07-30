@@ -56,12 +56,12 @@
 
       body {
         font-family: "Roboto", sans-serif;
-        padding: 5vh 10vw;
+        padding: 1em 1em 0 1em;
         background-color: var(--color-background-light);
         color: var(--color-text-light);
         font-size: x-large;
         line-height: 1.5em;
-        max-width: 48em;
+        max-width: 36em;
       }
 
       a {
@@ -79,12 +79,6 @@
 
       nav {
         margin: 1em 0 1em 0;
-      }
-
-      footer {
-        font-family: "Roboto Mono", monospace;
-        font-size: small;
-        line-height: 1.3em;
       }
 
       #me_container {
@@ -132,6 +126,21 @@
       #social {
         font-size: large;
         line-height: 1.5em;
+        list-style: none;
+        padding-left: 0;
+      }
+
+      #social ul {
+        padding-bottom: 1em;
+        list-style-type: disc;
+      }
+
+      #social ul li:first-of-type {
+        padding-top: 0.5em;
+      }
+
+      #social li:last-of-type ul {
+        padding-bottom: 0;
       }
 
       .fadeOut {
@@ -155,7 +164,13 @@
         }
       }
 
-      @media only screen and (min-width: 600px) {
+      @media only screen and (min-width: 750px) {
+        body {
+          padding: 4em 6em 0 6em;
+        }
+      }
+
+      @media only screen and (min-width: 750px) {
         header {
           display: flex;
         }
@@ -184,91 +199,87 @@
     </header>
     <main>
       <p>
-        I'm a mobile full stack software engineer developing
-        <a href="https://android.com" target="_blank">Android</a>
-        applications professionally since 2011. I write software since the early
-        2000s. I live in Germany and work at
+        I'm a full-stack software engineer with professional experience in
+        mobile application development since 2011. I've been writing software
+        since the early 2000s and am based in Germany, working at
         <a href="https://rewe-digital.com/">REWE digital</a>.
       </p>
       <p>
-        I also create and contribute to open source software. Find out more
-        about me and ways to contact me below.
+        I also contribute to and maintain open source projects. You can learn
+        more about me and find ways to get in touch below.
       </p>
 
       <nav>
         <ul id="social">
           <li>
-            <a href="mailto:mail@svenjacobs.com" target="_blank">E-Mail</a>
-            <small
-              >(<a
-                href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C"
-                target="_blank"
-                >PGP key</a
-              >)
-            </small>
+            Messaging
+            <ul>
+              <li>
+                <a href="mailto:mail@svenjacobs.com" target="_blank">E-Mail</a>
+                <small
+                  >(<a
+                    href="https://keys.openpgp.org/vks/v1/by-fingerprint/C1F2ABB72F1418EE7E75479CA476C518A3A2383C"
+                    target="_blank"
+                    >PGP key</a
+                  >)
+                </small>
+              </li>
+              <li>
+                <a
+                  href="https://signal.me/#eu/Yzg1bthOktid8FeNV_6YezHOjHjb6U7SRY6rfj74TB9Ykb7EWdRF3JXYfXHDbZPy"
+                  target="_blank"
+                  rel="me"
+                  >Signal</a
+                >
+              </li>
+              <li>
+                <a href="https://threema.id/DNBBMHMN" target="_blank" rel="me"
+                  >Threema</a
+                >
+              </li>
+            </ul>
           </li>
           <li>
-            <a href="https://github.com/svenjacobs" target="_blank" rel="me"
-              >GitHub</a
-            >
+            Development
+            <ul>
+              <li>
+                <a href="https://github.com/svenjacobs" target="_blank" rel="me"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://stackoverflow.com/users/416029/sven-jacobs"
+                  target="_blank"
+                  rel="me"
+                  >StackOverflow</a
+                >
+              </li>
+            </ul>
           </li>
           <li>
-            <a
-              href="https://stackoverflow.com/users/416029/sven-jacobs"
-              target="_blank"
-              rel="me"
-              >StackOverflow</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://androiddev.social/@svenjacobs"
-              target="_blank"
-              rel="me"
-              >Mastodon</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/svenjacobs81/"
-              target="_blank"
-              rel="me"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.xing.com/profile/Sven_Jacobs4/"
-              target="_blank"
-              rel="me"
-              >Xing</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://signal.me/#eu/Yzg1bthOktid8FeNV_6YezHOjHjb6U7SRY6rfj74TB9Ykb7EWdRF3JXYfXHDbZPy"
-              target="_blank"
-              rel="me"
-              >Signal</a
-            >
-          </li>
-          <li>
-            <a href="https://threema.id/DNBBMHMN" target="_blank" rel="me"
-              >Threema</a
-            >
-          </li>
-          <li>
-            <a href="https://keybase.io/caffeine" target="_blank" rel="me"
-              >Keybase</a
-            >
+            Social
+            <ul>
+              <li>
+                <a
+                  href="https://androiddev.social/@svenjacobs"
+                  target="_blank"
+                  rel="me"
+                  >Mastodon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/svenjacobs81/"
+                  target="_blank"
+                  rel="me"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
     </main>
-    <footer>
-      <div>
-        Created by hand with plain HTML and CSS | Works on all modern browsers
-      </div>
-    </footer>
   </body>
 </html>
