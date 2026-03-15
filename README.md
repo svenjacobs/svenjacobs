@@ -16,3 +16,9 @@ My favorite topics at the moment are [Jetpack Compose](https://developer.android
 I either work from home which is located in the beautiful [Westerwald](https://en.wikipedia.org/wiki/Westerwald) or – when in the office – in [Cologne](https://en.wikipedia.org/wiki/Cologne).
 
 For contact information see my [personal website](https://svenjacobs.com).
+
+## Sponsoring
+
+If you find my work useful, you can [sponsor me](https://github.com/sponsors/svenjacobs) to help support ongoing maintenance and future improvements.
+
+Please note: Sponsorship is a voluntary way to say "thanks" and help fund open-source work. **A fixed or recurring sponsorship does not guarantee any prioritization** of bug fixes, feature requests, support, consultancy, code reviews, private help, or any other work. I'll continue to triage and work on issues and pull requests based on my available time, impact, and project goals.
